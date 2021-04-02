@@ -1,0 +1,39 @@
+.task {
+  background-color: #6c7dcb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  border-radius: 5px;
+  padding: 0px 0px 0px 10px;
+  margin-bottom: 5px;
+  height: 40px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.detail {
+  border: none;
+  color: white;
+  background-color: #6c7dcb;
+}
+
+::placeholder {
+  color: white;
+}
+
+.pointer {
+  margin-right: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.title {
+  color: white;
+}

@@ -1,0 +1,35 @@
+.task {
+  background-color: #5d6fbe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  border-radius: 5px;
+  padding: 0px 0px 0px 10px;
+  margin-bottom: 5px;
+  height: 40px;
+}
+
+.icon {
+  color: white;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.detail {
+  border: none;
+  color: white;
+  background-color: #5d6fbe;
+}
+
+::placeholder {
+  color: white;
+}
+
+.pointer {
+  margin-right: 10px;
+  cursor: pointer;
+}

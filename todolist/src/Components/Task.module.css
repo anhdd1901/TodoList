@@ -1,0 +1,34 @@
+.task {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  border-radius: 5px;
+  padding: 0px 0px 0px 10px;
+  margin-bottom: 5px;
+  height: 40px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.detail {
+  border: none;
+  color: #464646;
+}
+
+.pointer {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.done {
+  text-decoration: line-through;
+}
